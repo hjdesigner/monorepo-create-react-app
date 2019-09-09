@@ -16,15 +16,21 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hjdesigner/monorepo-create-react-app.git"
-  },
   "scripts": {
+    "transpile": "babel src -d lib --ignore '**/*.spec.js,**/*.stories.js'",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "bugs": {
-    "url": "https://github.com/hjdesigner/monorepo-create-react-app/issues"
-  },
-  "homepage": "https://github.com/hjdesigner/monorepo-create-react-app#readme"
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "env": {
+      "test": {
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ]
+      }
+    }
+  }
 }

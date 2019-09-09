@@ -1,6 +1,6 @@
 import React from 'react';
-import Heading from "@yourproject/common/Heading";
 import logo from './logo.svg';
+import { Button } from "@yourproject/common/lib";
 import './App.css';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-        <Heading title="Hello, World Alice!" />
+        <Button>Foi Caralho 2</Button>
       </header>
     </div>
   );

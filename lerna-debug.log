@@ -2,15 +2,15 @@
 0 silly argv   y: true,
 0 silly argv   yes: true,
 0 silly argv   lernaVersion: '3.16.4',
-0 silly argv   '$0': '/usr/local/bin/lerna',
-0 silly argv   name: '@hjdesigner/common' }
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   name: '@yourproject/common' }
 1 notice cli v3.16.4
-2 verbose rootPath /Users/henrique.melanda/Documents/project/monorepo-create-react-app
+2 verbose rootPath /Users/henrique.melanda/Documents/project/lerna-with-react
 3 error Error: Command failed: git config --get user.name
 3 error
 3 error
-3 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
-3 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:338:15)
-3 error     at Object.execSync (/usr/local/lib/node_modules/lerna/node_modules/@lerna/child-process/index.js:26:16)
-3 error     at CreateCommand.gitConfig (/usr/local/lib/node_modules/lerna/node_modules/@lerna/create/index.js:181:34)
-3 error     at CreateCommand.initialize (/usr/local/lib/node_modules/lerna/node_modules/@lerna/create/index.js:103:46)
+3 error     at makeError (/Users/henrique.melanda/Documents/project/lerna-with-react/node_modules/execa/index.js:174:9)
+3 error     at Function.module.exports.sync (/Users/henrique.melanda/Documents/project/lerna-with-react/node_modules/execa/index.js:338:15)
+3 error     at Object.execSync (/Users/henrique.melanda/Documents/project/lerna-with-react/node_modules/@lerna/child-process/index.js:26:16)
+3 error     at CreateCommand.gitConfig (/Users/henrique.melanda/Documents/project/lerna-with-react/node_modules/@lerna/create/index.js:181:34)
+3 error     at CreateCommand.initialize (/Users/henrique.melanda/Documents/project/lerna-with-react/node_modules/@lerna/create/index.js:103:46)
